@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>university website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/61f6c46c2f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="https://www.designevo.com/res/templates/thumb_small/rustic-encircled-book-and-mortarboard.webp"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                       
+                    </ul>
+                 </div>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <!----------------------aboutUs------------------------>
+        <section class="Aboutus">
+            <div class="row">
+                <div class="aboutcol">
+                    <h1>We are th eworlds largest university</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500</p>
+                        <a href="" class="hbtn">EXPLORE NOW</a>
+                </div>
+                <div class="aboutcol">
+                    <img src="https://media.istockphoto.com/id/1440040207/photo/stylish-students-walking-in-city.webp?b=1&s=170667a&w=0&k=20&c=C8nCGLVUGyATVpE0ftdLqxFlQ03vOeQIUPBkPipi5HU=">
+                </div>
+            </div>
+        </section>
+       
+         
+       <!-----------------------footer------------------------>
+       <section class="footer">
+        <h1>About Us</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s</p>
+            <div class="footerimg">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>by gopika</p>
+       </section>
+
+        <!--------------javascript for toggle----------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
