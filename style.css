@@ -10,6 +10,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+   
 }
 nav{
     display: flex;
@@ -100,7 +101,7 @@ nav .fa{
         position: absolute;
         background: red;
         width: 200px;
-        height: 100vh;
+        height: 913px;
         text-align: left;
         right: -200px;
         top: 0;
@@ -116,7 +117,7 @@ nav .fa{
     }
     
 }
-/*---------course-----------*/
+/*--------------------------course---------------------*/
 .course{
     width: 80%;
     text-align: center;
@@ -162,7 +163,7 @@ p{
         flex-direction: column;
     }
 }
-/*-----------campus------------*/
+/*------------------------campus------------------------*/
 .campus{
     width: 80%;
     margin: auto;
@@ -204,7 +205,7 @@ p{
     bottom: 49%;
     opacity: 1;
 }
-/*---------------facilities-------------*/
+/*-----------------------facilities-----------------------*/
 .facilities{
     width: 80%;
     padding-top: 100px;
@@ -231,7 +232,7 @@ p{
     margin-top: 16px;
     margin-bottom: 15px;
 }
-/*--------------testimonials-------------*/
+/*-------------------------testimonials-------------------------*/
 .testimonials{
     width: 80%;
     margin: auto;
@@ -270,7 +271,7 @@ p{
         margin-right: 15px;
      }
 }
-/*--------------cta-----------------*/
+/*--------------------------cta--------------------------*/
 .cta{
     width: 80%;
     position: relative;
@@ -304,7 +305,7 @@ p{
     position: relative;
     height: 200px;
 }
-/*----------------about us--------------*/
+/*--------------------------about us-------------------------*/
 .sub-header{
     height: 50vh;
     width: 100%;
@@ -342,11 +343,11 @@ p{
         width: 40vh;
     }
     .nav-links{
-        height: 450px;
+        height: 913px;
     }
     
 }
-/*------------------blog------------------------*/
+/*--------------------------blog----------------------------*/
 .blog{
     width: 80%;
     padding: 50px 0;
@@ -386,9 +387,10 @@ p{
     display: flex;
     color: #555;
 }
+/*--------------------------------contactus---------------------------*/
 @media(max-width:700px){
     .nav-links{
-        height: 430px;
+        height: 913px;
     }
 }
 .location{
